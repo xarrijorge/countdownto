@@ -78,6 +78,9 @@ function App() {
                 <div className='text-section'>
                     <Timer date={dateVal} />
                     <p className='title'>to {eventName}</p>
+                    <p className='title sub'>
+                        {new Date(dateVal).toDateString()}
+                    </p>
                 </div>
             </article>
         </main>
