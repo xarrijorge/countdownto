@@ -15,6 +15,9 @@ body{
   background-image: url('../src/media/cincodemayo.jpg');
   /* color: indigo; */
 }
+.halloween{
+  background-image: url('../src/media/halloween.jpg')
+}
 .starwarsday{
   background-image: url('../src/media/starwars.jpg');
   /* color: darkred; */
@@ -33,6 +36,9 @@ body{
 }
 .newyearsday{
   background-image: url('../src/media/newyear.jpg');
+}
+.unitednationsday{
+  background-image: url('../src/media/unitednations.jpg');
   color: gainsboro;
 }
 .mainBox{
