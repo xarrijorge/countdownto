@@ -4,6 +4,9 @@ html *{
 body{
   overflow: hidden;
 }
+.mainBox{
+  background-image: url('../src/media/main.jpg');
+}
 .honeybearsbirthday{
   background-image: url('../src/media/honeybear.png');
 }
@@ -88,8 +91,9 @@ article{
 .form-box button{
   width: 100px;
   height: 40px;
-  background-color: slateblue;
   border: none;
+  background-color: black;
+  color: gainsboro;
   border-radius: 2px;
 }
 .event-button{
@@ -97,7 +101,7 @@ article{
   width: 100px;
   margin: 5px 2px;
 }
-.event-button:hover{
+button{
   cursor: pointer;
 }
 
