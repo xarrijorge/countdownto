@@ -59,20 +59,25 @@ function App() {
                     </button>
                 ))}
             </aside>
-            <div className='form-box'>
+            <form className='form-box'>
                 <label for='custom-date'>Countdown to a Personal Event</label>
                 <input
                     type='text'
+                    required
                     placeholder='Event Title'
                     onChange={(e) => setPersonalName(e.target.value)}
                 />
                 <input
                     name='custom-date'
                     type='date'
+                    required
+                    min={new Date().toDateString()}
                     onChange={(e) => setPersonalDate(e.target.value)}
                 />
-                <button onClick={handlePersonalEvent}>Add Event</button>
-            </div>
+                <button type='submit' onClick={handlePersonalEvent}>
+                    Add Event
+                </button>
+            </form>
 
             <article>
                 <div className='text-section'>
